@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import Image from 'next/image';
+import Image from '@/compnents/Image';
 import { motion } from 'framer-motion';
 import SectionTitle from "@/compnents/SectionTitle";
 

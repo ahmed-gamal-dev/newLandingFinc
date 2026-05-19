@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import Image from 'next/image';
+import Image from '@/compnents/Image';
 import axios from 'axios';
 import img6 from './../../../public/iphonee.png';
 
@@ -261,7 +261,7 @@ export default function SectionSix() {
 // 'use client';
 
 // import React, { useState } from 'react';
-// import Image from 'next/image';
+// import Image from '@/compnents/Image';
 // import axios from 'axios';
 // import img6 from './../../../public/sectionSixImg.png';
 
@@ -501,7 +501,7 @@ export default function SectionSix() {
 // 'use client';
 
 // import React, { useState } from 'react';
-// import Image from 'next/image';
+// import Image from '@/compnents/Image';
 // import axios from 'axios';
 // import img6 from './../../../public/iphonee.png';
 
