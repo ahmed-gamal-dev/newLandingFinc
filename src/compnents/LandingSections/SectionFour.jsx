@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from '@/compnents/Image';
 import { useEffect, useRef, useState } from 'react';
 import FincScoreSection from "../FincScoreSection";
 import Advice from "../Advice";
@@ -213,7 +213,7 @@ const SectionFour = () => {
 
 export default SectionFour;
 
-// import Image from 'next/image';
+// import Image from '@/compnents/Image';
 // import { useEffect, useRef, useState } from 'react';
 // import FincScoreSection from "../FincScoreSection";
 // import Advice from "../Advice";

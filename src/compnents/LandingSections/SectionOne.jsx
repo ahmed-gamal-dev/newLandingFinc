@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect } from 'react';
 import SectionTitle from "../SectionTitle";
-import Image from 'next/image';
+import Image from '@/compnents/Image';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

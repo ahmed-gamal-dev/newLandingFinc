@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
-import Image from 'next/image';
+import Image from '@/compnents/Image';
 import img6 from './../../../public/sectionSixImg.png';
 import SectionTitle from "../SectionTitle";
 import MarketAccessSection from "../MarketAccessSection";

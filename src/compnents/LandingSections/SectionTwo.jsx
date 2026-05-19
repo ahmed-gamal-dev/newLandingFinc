@@ -1,6 +1,6 @@
 "use client"
 import SectionTitle from "../SectionTitle";
-import Image from 'next/image';
+import Image from '@/compnents/Image';
 import img1 from './../../../public/section2img1.png';
 import img2 from './../../../public/section2img2.png';
 import img3 from './../../../public/section2img3.png';
