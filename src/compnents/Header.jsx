@@ -36,18 +36,15 @@ const Header = () => {
 
   const handleSectionNav = (e, sectionId) => {
     e.preventDefault();
-    const routeToSection = () => {
-      scrollToSection(sectionId);
-      setIsOpen(false);
-    };
 
     if (!isHomePage) {
-      router.push('/');
-      setTimeout(routeToSection, 50);
+      router.push(`/#${sectionId}`);
+      setIsOpen(false);
       return;
     }
 
-    routeToSection();
+    scrollToSection(sectionId);
+    setIsOpen(false);
   };
 
   const toggleMenu = () => setIsOpen(!isOpen);
