@@ -1,5 +1,5 @@
-import IndividualsPage from "../../Individuals/app/IndividualsPage";
+import LegacyIndividualsPage from "../Individuals/app/page";
 
 export default function IndividualsRoutePage() {
-  return <IndividualsPage />;
+  return <LegacyIndividualsPage />;
 }

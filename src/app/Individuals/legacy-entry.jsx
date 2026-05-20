@@ -1,3 +1,3 @@
 "use client";
 
-export { default } from "../../individuals";
+export { default } from "./app/page";
