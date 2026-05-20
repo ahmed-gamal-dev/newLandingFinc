@@ -54,7 +54,7 @@ const Header = () => {
     { name: 'How it works', href: '#how-it-works', sectionId: 'how-it-works' },
     { name: 'Features', href: '#features', sectionId: 'features' },
     { name: 'FAQ', href: '#faq', sectionId: 'faq' },
-    { name: 'Individuals', href: '/Individuals', sectionId: null },
+    { name: 'Individuals', href: '/individuals', sectionId: null },
   ];
 
   return (<>
